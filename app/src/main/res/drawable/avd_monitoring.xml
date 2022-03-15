@@ -1,0 +1,163 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="512dp"
+            android:height="512dp"
+            android:viewportWidth="512"
+            android:viewportHeight="512">
+            <path
+                android:name="monitor"
+                android:pathData="M 255 136 L 470 136 C 470 136 496 136 495 160 L 495 389 C 495 389 501 423 467 423 L 42 425 C 42 425 15 425 15 398 L 15 160 C 15 160 15 136 42 136 L 98 136"
+                android:strokeWidth="20"
+                android:strokeColor="#ffffff"
+                android:strokeLineJoin="round"
+                android:trimPathEnd="0" />
+
+            <path
+                android:name="monitorLine"
+                android:pathData="M 22 375 L 490 375"
+                android:strokeWidth="20"
+                android:strokeColor="#ffffff"
+                android:strokeLineJoin="round"
+                android:trimPathEnd="0" />
+            <path
+                android:name="bargraph"
+                android:pathData="M 47 215 L 47 159 L 79 159 L 79 215 L 104 215 L 104 73 L 135 73 L 135 215 L 159 215 L 159 16 L 193 16 L 193 215 L 216 215 L 216 48 L 248 48 L 248 215 L 271 215 L 271 159 L 304 159 L 304 215 L 47 215 L 47 159 Z"
+                android:strokeWidth="15"
+                android:strokeColor="#ffffff"
+                android:strokeLineJoin="round"
+                android:trimPathEnd="0" />
+            <path
+                android:name="circle_line1"
+                android:pathData="M 411.54 311.4 C 412.52 306.1 416.22 301.15 423.24 298.84 C 425.18 298.7 426.21 298.47 428.24 298.84 C 448.55 300.71 445.54 332.31 425.24 330.28 C 415.67 329.32 410.33 320.52 411.4 312.27 C 411.44 311.98 321.98 262.88 321.94 263.23 C 321.11 271.04 315.3 278.29 305.24 277.28 C 297.71 276.52 292.79 270.91 291.57 264.53 "
+                android:strokeWidth="15"
+                android:strokeColor="#ffffff"
+                android:trimPathEnd="0" />
+            <path
+                android:name="circle_line2"
+                android:pathData="M 170.29 328.52 C 169.63 339.06 178.32 350.06 191.24 346.94 C 199.95 344.84 205.19 335.97 204.18 327.61 C 204.15 327.39 291.47 264.01 291.43 263.74 C 290.42 256.69 293.88 248.92 303.24 245.84 C 305.18 245.7 306.21 245.47 308.24 245.84 C 318.02 246.74 322.4 254.55 322.03 262.17"
+                android:strokeWidth="15"
+                android:strokeColor="#ffffff"
+                android:trimPathEnd="0" />
+            <path
+                android:name="circle_line3"
+                android:pathData=" M 204.08 326.94 C 203.71 324.69 202.89 322.49 201.54 320.48 C 197.02 313.74 190.94 311.76 183.24 313.01 C 174.93 315.67 170.98 321.62 170.35 327.83 C 170.32 328.06 82.58 295.96 82.64 295.68 C 83.93 290.2 82.78 284.05 78.85 279.66 C 74.54 274.85 69.29 273.99 63.24 275.03 C 42.21 282.39 51.54 313.05 71.24 307.92 C 77.08 306.4 80.92 301.84 82.42 296.52"
+                android:strokeWidth="15"
+                android:strokeColor="#ffffff"
+                android:trimPathEnd="0" />
+            <path
+                android:name="standLeft"
+                android:pathData="M 216 425 L 202 470 L 256 470 L 167 470 L 167 495 L 78 495 L 256 495"
+                android:strokeWidth="20"
+                android:strokeColor="#ffffff"
+                android:strokeLineJoin="round"
+                android:trimPathEnd="0" />
+            <path
+                android:name="standRight"
+                android:pathData="M 297 425 L 311 470 L 256 470 L 344 470 L 345 495 L 432 495 L 256 495"
+                android:strokeWidth="20"
+                android:strokeColor="#ffffff"
+                android:strokeLineJoin="round"
+                android:trimPathEnd="0" />
+        </vector>
+    </aapt:attr>
+    <target android:name="monitor">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="500"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="monitorLine">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="400"
+                android:startOffset="250"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="circle_line1">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="500"
+                android:startOffset="200"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="circle_line2">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="500"
+                android:startOffset="200"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="circle_line3">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="500"
+                android:startOffset="200"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+
+    <target android:name="standLeft">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="400"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:startOffset="200"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="standRight">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="400"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:startOffset="200"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="bargraph">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="500"
+                android:startOffset="300"
+                android:interpolator="@android:anim/linear_interpolator"
+                android:propertyName="trimPathEnd"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+</animated-vector>

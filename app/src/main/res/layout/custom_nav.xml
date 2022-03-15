@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.omegarts.mypi.ui.nav.CustomNav">
+
+    <ImageView
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:translationX="0dp"
+        app:srcCompat="@drawable/avd_bump_up" />
+
+    <ImageView
+        android:id="@+id/deselected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:translationX="0dp"
+        app:srcCompat="@drawable/avd_bump_down" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/navbar"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item1"
+            style="@style/navItem"
+            app:srcCompat="@drawable/nav_ssh" />
+
+        <ImageView
+            android:id="@+id/item2"
+            style="@style/navItem"
+            app:srcCompat="@drawable/nav_montoring" />
+
+        <ImageView
+            android:id="@+id/item3"
+            style="@style/navItem"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/nav_services" />
+
+        <ImageView
+            android:id="@+id/item4"
+            style="@style/navItem"
+            app:srcCompat="@drawable/nav_control" />
+
+        <ImageView
+            android:id="@+id/item5"
+            style="@style/navItem"
+            app:srcCompat="@drawable/nav_settings" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/selectedCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:translationX="0dp"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:translationY="10dp">
+        <ImageView
+            android:id="@+id/circleOrange"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/selectedItem"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:translationX="5dp"
+            android:translationY="5dp"
+            app:srcCompat="@drawable/nav_services" />
+    </RelativeLayout>
+
+</RelativeLayout>

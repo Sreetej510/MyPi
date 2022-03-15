@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable-v24/avd_ssh.xml" value="0.2005" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_bump_down.xml" value="0.1685" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_bump_up.xml" value="0.1685" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_controls.xml" value="0.2005" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_hexagon_green.xml" value="0.239" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_hexagon_red.xml" value="0.2375" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_monitor_small.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_monitoring.xml" value="0.1685" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_service.xml" value="0.2005" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_services.xml" value="0.1685" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_settings.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/avd_ssh.xml" value="0.2005" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/bg_gradient.xml" value="0.2" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/bg_settings.xml" value="0.239" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/circle.xml" value="0.2055" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/each_service_bg.xml" value="0.2595" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/green_gradient.xml" value="0.239" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/ic_head_banner.xml" value="0.246" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/ic_headpath.xml" value="0.246" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/ic_headsvg.xml" value="0.246" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.246" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/ic_svg.xml" value="0.246" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/nav_control.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/nav_montoring.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/nav_services.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/nav_settings.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/nav_ssh.xml" value="0.2055" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/navbar_bg.xml" value="0.2595" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/rectangle.xml" value="0.2055" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/selected.xml" value="0.2595" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/switch_thumb.xml" value="0.2445" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/switchthumb.xml" value="0.2445" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/switchtrack.xml" value="0.2445" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/drawable/top.xml" value="0.2595" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/bg_gradient.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/custom_nav.xml" value="0.264" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/customtab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/each_service.xml" value="0.72" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/fragment_services.xml" value="0.264" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/fragment_settings.xml" value="0.24728260869565216" />
+        <entry key="..\:/Users/sreet/AndroidStudioProjects/MyPi/app/src/main/res/layout/nav_custom.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

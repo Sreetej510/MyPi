@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".ui.fragment.ServicesFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="695px"
+        android:layout_marginTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_headsvg"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="50dp"
+        android:text="Services"
+        android:textColor="@color/white"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/serviceCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="75dp"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="85sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="100dp"
+        android:text="Running"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:scrollbars="none">
+
+        <AbsoluteLayout
+            android:id="@+id/allServices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="70dp">
+
+            <include
+                android:id="@+id/service1"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="132dp"
+                android:layout_height="119dp"
+                android:layout_x="23dp"
+                android:layout_y="93dp" />
+
+            <include
+                android:id="@+id/service2"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="132dp"
+                android:layout_height="117dp"
+                android:layout_x="264dp"
+                android:layout_y="90dp" />
+
+            <include
+                android:id="@+id/service3"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="149dp"
+                android:layout_height="138dp"
+                android:layout_x="131dp"
+                android:layout_y="5dp" />
+
+            <include
+                android:id="@+id/service4"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="149dp"
+                android:layout_height="138dp"
+                android:layout_x="1dp"
+                android:layout_y="248dp" />
+
+            <include
+                android:id="@+id/service5"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="179dp"
+                android:layout_height="165dp"
+                android:layout_x="121dp"
+                android:layout_y="152dp" />
+
+            <include
+                android:id="@+id/service6"
+                style="@style/serviceItem"
+                layout="@layout/each_service"
+                android:layout_width="149dp"
+                android:layout_height="139dp"
+                android:layout_x="238dp"
+                android:layout_y="290dp" />
+
+
+        </AbsoluteLayout>
+    </ScrollView>
+</RelativeLayout>

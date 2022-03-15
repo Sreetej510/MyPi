@@ -1,0 +1,72 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="512dp"
+            android:height="512dp"
+            android:viewportWidth="512"
+            android:viewportHeight="512">
+            <path
+                android:name="border"
+                android:pathData="M 254.72 66.2 C 254.72 66.2 449.8 66.2 449.8 66.2 C 449.8 66.2 491.43 66.2 491.43 105.53 C 491.43 105.53 491.43 407.03 491.43 407.03 C 491.43 407.03 491.43 435.63 442.66 435.63 C 442.66 435.63 51.33 435.63 51.33 435.63 C 51.33 435.63 16.83 435.63 16.83 401.07 C 16.83 401.07 16.83 99.57 16.83 99.57 C 16.83 99.57 16.83 66.2 57.27 66.2 C 57.27 66.2 254.72 66.2 254.72 66.2 Z"
+                android:strokeColor="#ffffff"
+                android:strokeWidth="30"
+                android:trimPathEnd="0"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"/>
+            <path
+                android:name="internal"
+                android:pathData="M 98.9 144.85 C 98.9 144.85 201.2 252.11 201.2 252.11 C 201.2 252.11 98.9 358.17 98.9 358.17 M 247.59 352.21 C 247.59 352.21 414.11 352.21 414.11 352.21"
+                android:strokeColor="#ffffff"
+                android:strokeWidth="40"
+                android:trimPathEnd="0"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"/>
+            <path
+                android:name="internalLine"
+                android:pathData="M 247.59 352.21 C 247.59 352.21 414.11 352.21 414.11 352.21"
+                android:strokeColor="#ffffff"
+                android:strokeWidth="40"
+                android:trimPathEnd="0"
+                android:strokeLineCap="round"
+                android:strokeLineJoin="round"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="border">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:duration="500"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/linear_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="internal">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:startOffset="200"
+                android:duration="450"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/linear_interpolator"/>
+        </aapt:attr>
+    </target>
+    <target android:name="internalLine">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:propertyName="trimPathEnd"
+                android:startOffset="200"
+                android:duration="450"
+                android:valueFrom="0"
+                android:valueTo="1"
+                android:valueType="floatType"
+                android:interpolator="@android:anim/linear_interpolator"/>
+        </aapt:attr>
+    </target>
+</animated-vector>
